@@ -14,9 +14,9 @@ require 'CalculadoraDeDescontos.php';
 
 
 $reforma = new Orcamento(501);
-$reforma->addItem(new Item("CANETA",101));
-$reforma->addItem(new Item("CANETA",101));
-$reforma->addItem(new Item("CANETA",101));
+$reforma->addItem(new Item("CANETA",100));
+$reforma->addItem(new Item("CANETA",100));
+$reforma->addItem(new Item("CANETA",100));
 
 $calculadora = new CalculadoraDeImpostos();
 echo $calculadora->calcula($reforma,new IHIT());

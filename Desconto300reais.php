@@ -4,7 +4,7 @@ class Desconto300reais implements IDesconto{
     private $proximoDesconto;
 
     public function desconto(Orcamento $orcamento){
-        if($orcamento->getValor() == 300){
+        if($orcamento->getValor() == 3001){
 
             return $orcamento->getValor() * 0.01 ." - Desconto > R$300,00.";
 
